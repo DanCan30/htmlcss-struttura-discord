@@ -29,11 +29,12 @@ body {
 header {
     background: #ADD8E6;
     padding: 20px;
+    font-size: 20px;
 }
 
 nav div {
     flex-grow: 1;
-    padding: 12px;
+    padding: 10px;
     background: #DAA520;
 }
 
@@ -45,7 +46,7 @@ nav li {
 nav li a {
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding: 5px 3px;
 }
 
 .links {
@@ -89,4 +90,53 @@ section:first-child {
     background: #FFC0CB;
     height: 500px;
     flex-grow: 4;
+}
+
+.green-bg {
+    background: #228B22;
+    height: 900px;
+}
+
+section:last-of-type {
+    padding-top: 10px;
+    background: #23272A;
+    border-bottom: 2px solid white;
+}
+
+.salmon-bg {
+    background: #F08080;
+    height: 570px;
+    flex-grow: 3;
+}
+
+.turquoise-bg {
+    background: #20B2AA;
+    height: 570px;
+    flex-grow: 7;
+}
+
+.flex-contact {
+    border: 2px dashed white;
+    flex-grow: 1;
+}
+
+/* Footer */
+
+footer {
+    background: #23272A;
+    padding-top: 25px;
+    border-bottom: 1px solid white;
+}
+
+.foot {
+    height: 80px;
+    background: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    background: #FFB6C1;
+    padding: 5px 10px;
+    font-size: 20px;
 }
