@@ -1,0 +1,56 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: grey;
+}
+
+.flx {
+    display: flex;
+}
+
+/* Header */
+
+header {
+    background: #ADD8E6;
+    padding: 20px;
+}
+
+nav div {
+    border: 2px dashed black;
+    flex-grow: 1;
+    padding: 12px;
+    background: #DAA520;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.links {
+    flex-grow: 3;
+    text-align: center;
+}
+
+.login {
+    text-align: right;
+}
