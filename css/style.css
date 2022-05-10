@@ -104,13 +104,11 @@ section {
 
 footer {
     background: #23272A;
-    padding-top: 25px;
     border-bottom: 1px solid white;
 }
 
-footer section:last-of-type {
+footer section {
     padding-top: 10px;
-    background: #23272A;
     border-bottom: 2px solid white;
 }
 
@@ -132,6 +130,7 @@ footer section:last-of-type {
 }
 
 .foot {
+    margin-top: 30px;
     height: 80px;
     background: #7FFFD4;
     justify-content: space-between;
